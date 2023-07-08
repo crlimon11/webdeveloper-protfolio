@@ -34,6 +34,9 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
+main section{
+    margin-top: 150px;
+}
 /* nav related styles */
 header {
     background: #FFF8F3;
@@ -130,4 +133,22 @@ main{
     font-size: 20px;
     text-align: center;
     color: #757575;
+}
+/* what i do */
+#whatido{
+    padding: 30px 150px;
+}
+.skills_container{
+    display: flex;
+    column-gap: 20px;
+}
+.skills{
+    padding: 30px;
+    box-shadow: 10px 10px 20px black;
+}
+/* resume related styles */
+.resume_column_title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
