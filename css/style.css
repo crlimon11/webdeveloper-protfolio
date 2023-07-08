@@ -1,0 +1,48 @@
+/* common shared style */
+body{
+    font-family: 'Galada', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.text_primary{
+    color:#FD6E0A;
+}
+.btn_primary{
+    padding: 15px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700px;
+}
+/* nav related styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav_title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800px;
+}
+nav > ul{
+    display: flex;
+    column-gap: 51px;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400px;
+}
+/* bannar related style */
